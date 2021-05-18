@@ -1,0 +1,191 @@
+@media screen and (hover:hover) {
+
+    button:hover {
+        cursor: pointer;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+        transition: 0.2s ease-in-out;
+    }
+
+    a:hover {
+        cursor: pointer;
+        color: #6EBBD3;
+    }
+
+    .follow:hover {
+        cursor: pointer;
+        background-color: #E62D2D;
+        will-change: auto;
+        transition: background-color 0.5s ease-in-out;
+    }
+}
+
+@media screen and (max-width: 767.9px) {
+
+    .nav .nav-link {
+        display: none;
+    }
+
+    .menu-block {
+        width: 100%;
+    }
+
+    li {
+        text-align: center;
+    }
+
+    .fa-times {
+        right: -88%;
+    }
+
+    .info-modal {
+        height: 80px;
+        z-index: 999;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .search-result h2 {
+        font-size: 25px;
+        margin-left: 16px;
+    }
+
+    .filter-item {
+        margin-left: 15px;
+    }
+
+    .fa-chevron-down {
+        margin-left: 5px;
+    }
+
+    .fa-bars {
+        margin: 0;
+    }
+
+    .nav-header {
+        margin: 0 16px;
+        justify-content: space-between;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .filtering {
+        margin-left: 16px;
+    }
+
+    .cards {
+        grid-template-columns: minmax(300px, 380px);
+        margin: 0 10px;
+        /* justify-items: center; */
+        justify-content: center;
+    }
+
+    .promo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ads {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .promo-head {
+        font-size: 30px;
+    }
+
+    .promo-text {
+        font-size: 18px;
+    }
+
+    .form-line {
+        flex-direction: column;
+    }
+
+    .email,
+    .follow {
+        width: 100%;
+    }
+
+    .follow {
+        margin-top: 15px;
+    }
+
+    .arr-up {
+        bottom: 100px;
+        right: 30px;
+    }
+
+    .fa-chevron-up {
+        padding: 10px 12px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1140px) {
+
+    .menu {
+        display: block;
+    }
+
+    .search-result h2 {
+        font-size: 30px;
+        margin-left: 16px;
+    }
+
+    .filtering {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .nav-header {
+        margin: 0 16px;
+        justify-content: space-between;
+    }
+
+    .nav .nav-link {
+        display: none;
+    }
+
+    .cards {
+        margin: 0 16px;
+        justify-content: center;
+        grid-template-columns: repeat(2, minmax(280px, 340px));
+    }
+
+    .form-line {
+        /* flex-direction: column; */
+        align-items: center;
+    }
+
+    .promo-head {
+        font-size: 30px;
+    }
+
+    .promo-text {
+        font-size: 18px;
+    }
+
+    .email {
+        /* width: 50%; */
+        padding: 15px 0;
+    }
+
+    .follow {
+        /* margin-top: 15px; */
+        /* width: 50%; */
+        padding: 15px 0;
+    }
+
+    .arr-up {
+        right: 30px;
+    }
+
+    .fa-chevron-up {
+        border: 2px solid #38a2c2;
+        padding: 10px 13px;
+    }
+}
